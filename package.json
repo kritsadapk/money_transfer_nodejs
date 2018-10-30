@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "start": "npm run test && node welcome.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
