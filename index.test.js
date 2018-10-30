@@ -198,7 +198,7 @@ test("Should Return NULL IF Amuont is 20001", () => {
   expect(result).toBe(fee)
 })
 
-test("Should Return NULL IF Amuont is 1000.5 *", () => {
+test("Should Return NULL IF Amuont is 1000.5 **", () => {
   const destination = 'KBANK'
   const amount = 1000.5
   const fee = null
