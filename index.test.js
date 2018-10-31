@@ -5,7 +5,7 @@ test("Should Return 0 IF Amuont is 1 And Differance Bank", () => {
  
   const destination = 'SCB'
   const amount = 1
-  const fee = 0
+  const fee = 1
  
   const result = index.calculateFee(source, destination, amount)
 
